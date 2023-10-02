@@ -4,6 +4,5 @@
     justify-content: center;
 }
 .gridBox{
-    flex: 0 0 calc(6.25% - 4px);
     aspect-ratio: 1/1;
 }
