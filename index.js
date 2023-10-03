@@ -5,10 +5,7 @@ let flexPercentage;
 let color;
 button.addEventListener('click',()=>{
     numberOfBoxes=prompt("How many squares do you want on each side?")
-    if (numberOfBoxes>100){
-        alert("Cannot be over 100 squares or it lags")
-    }
-    else if (numberOfBoxes===null){
+    if (numberOfBoxes===null){
         alert("No input")
     }
     else if(numberOfBoxes<1){
